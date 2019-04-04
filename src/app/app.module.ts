@@ -8,6 +8,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { SettingsComponent } from './components/settings/settings.component';
 import { MenuComponent } from './components/menu/menu.component';
+import { CadastrosModule } from './pages/cadastros/cadastros.module';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { MenuComponent } from './components/menu/menu.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    CadastrosModule,
     AppRoutingModule
   ],
   providers: [],
